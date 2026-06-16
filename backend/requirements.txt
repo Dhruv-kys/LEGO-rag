@@ -1,0 +1,7 @@
+# 🧠 LEGO RAG — backend (the brain)
+# Boilerplate deps. Add real RAG libs (langchain, chromadb, etc.) as bricks land.
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-dotenv==1.0.1

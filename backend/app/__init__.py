@@ -1,0 +1,1 @@
+"""🧱 LEGO RAG backend package."""

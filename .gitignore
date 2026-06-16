@@ -1,0 +1,32 @@
+# ─── Python / backend ───────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ─── Node / frontend ────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.local
+
+# ─── Secrets & env ──────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ─── Editor / OS ────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# ─── RAG artifacts ──────────────────────────────────
+*.index
+*.faiss
+.chroma/
+data/vectorstore/
